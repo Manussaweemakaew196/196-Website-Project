@@ -1,6 +1,11 @@
 header {
     display: inline;
 }
+#img1,#img2,#img3{
+  background-color: rgb(110, 106, 106);
+  padding: 5px;
+  margin: 5px 5px 5px 5px;
+}
 p {
     font-family: 'Sriracha', cursive;
     text-align: center;

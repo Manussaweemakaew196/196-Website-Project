@@ -1,9 +1,13 @@
 #body {
-    background: #e767ae;
+    background: #6d6569;
 }
-footer{
-    background:white; 
+header p{
+  font-family: 'Sriracha', cursive;
     text-align: center;
+    font-size: 2cm;
+} 
+main{
+  font-family: 'Mali', cursive;
 }
 nav {
   margin: 0 auto;
@@ -108,13 +112,17 @@ article section img{
 }
 .data .img img
 {
-  width: 600px;
+  width: 500px;
   height: 550px;
 }
 .data{
-  background:rgb(206, 173, 187);
+  background:whitesmoke;
 }
 .data .text p{
   padding-left: 15rem;
   padding-right: 15rem;
+}
+footer{
+  background:white; 
+  text-align: center;
 }
