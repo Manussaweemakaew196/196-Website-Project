@@ -1,5 +1,5 @@
 #body {
-    background: pink;
+    background: #e767ae;
 }
 footer{
     background:white; 
@@ -106,8 +106,15 @@ article section img{
   width: 250px;
   height: 300px;  
 }
-/*.data
+.data .img img
 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}/*
+  width: 600px;
+  height: 550px;
+}
+.data{
+  background:rgb(206, 173, 187);
+}
+.data .text p{
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
