@@ -5,7 +5,7 @@ p {
     font-family: 'Sriracha', cursive;
     text-align: center;
     font-size: 2cm;
-    background: white;
+
 }
 #body {
     background-image: url(../image/cnx05.jpg);
@@ -13,6 +13,7 @@ p {
 footer{
     background:white; 
     text-align: center;
+    
 }
   nav {
     margin: 0 auto;
@@ -107,3 +108,18 @@ footer{
       border-radius: 0;
     }
   }
+
+article {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 5rem;
+  text-align: center;
+}
+article section video{
+  width: 250px;
+  height: 300px;
+}
+article section img{
+  width: 250px;
+  height: 300px ;
+}
