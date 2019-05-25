@@ -3,49 +3,54 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style2.css">
         <link href="https://fonts.googleapis.com/css?family=Mali&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
         <title>Adventure</title>
     </head>
+    
     <body id="body">
-        
-        <header class="header">
+           
+        <nav class="header">
             <logo>
                 <img src="image/adventure.png" alt="">
+                <canvas id="canvas" width="150" height="150">
+                    </canvas>
             </logo>
                 <nav class="circle">
                   <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="reviwe.html">Reviwe</a></li>
-                    <li><a href="aboutus2.html">About Us</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="reviwe.html">Reviwe</a></li>
+                        <li><a href="photography.html">Photography</a></li>
+                        <li><a href="about2.html">About Us</a></li>
                   </ul>
                 </nav>
               </section>
-        </header>
-        <main id="main">
-            <p>เที่ยวไปเรื่อย</p>
-            
-            <article>
-                <section id="img1">
-                    <img src="image/monjam.jpg" alt="">
-                </section>
-                <section id="img2">
-                   <video src="video/VID_77711214_012733_831.mp4" autoplay="autoplay" muted="muted"></video>
-                </section>
-                <section id="img3"> 
-                    <video src="video/monjam.mp4" autoplay="autoplay" muted="muted"></video>
-                 </section>
-                <section id="img4">
-                    <img src="image/forest2.jpg">
-                </section>
-            </article>
+            </nav>
+            <header>
+                <p id="header">เที่ยวไปเรื่อย</p>
+            </header>
+            <main class ="grid-container">
+                    <div class="grid-item">
+                            <img src="image/monjam.jpg" width="250" height="300"></div>
+                    </div>
+                    <div class="grid-item">
+                            <video src="video/VID_77711214_012733_831.mp4" autoplay="autoplay" muted="muted" width="250" height="300"></video>
+                    </div>
+                    <div class="grid-item">
+                    <video src="video/monjam.mp4" autoplay="autoplay" muted="muted" width="250" height="300"></video>
+                    </div>     
+                    <div class="grid-item">
+                    <img src="image/forest2.jpg"width="250" height="300"></div>
+                    </div>
+            </main>
            
-        </main>
         <footer id="footer">
             <h>Adventure 2019<br>-Manussawee Makaew-</h>
         </footer>
+        
     
+        <script src="js/clock.js" ></script>
+
     </body>
-    
 </html>
