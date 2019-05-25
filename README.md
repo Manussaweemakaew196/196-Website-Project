@@ -37,7 +37,7 @@ text:เกี่ยวกับฉัน
 Credit:https://fonts.google.com/
 Credit:https://speckyboy.com/custom-hover-click-effects-css-javascript/ 
 Credit:https://www.w3schools.com/graphics/tryit.asp?filename=trycanvas_clock_start  
-ใช้ไฟล์ aboust2 เนื่องจาก Aboute โค้ดไม่สมบูรณ์ เลือกที่จะสร้างไฟล์ใหม่ เพราะกลัวจะไม่ทันเวลาส่งค่ะ
+ใช้ไฟล์ aboust2.html เนื่องจาก Aboute.html โค้ดไม่สมบูรณ์ เลือกที่จะสร้างไฟล์ใหม่ เพราะกลัวจะไม่ทันเวลาส่งค่ะ
 ทำโดยใช้ gride
 ---------------------------------------------------------------------------------------------
 หมายเหตุ:หลังจากที่ทำแล้ว พบปัญหา--webโหลดช้า คิดว่ารูปที่ใส่มีขนาดไฟล์ใหญ่
