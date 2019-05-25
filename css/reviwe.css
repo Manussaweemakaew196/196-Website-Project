@@ -125,6 +125,10 @@ article section img{
   padding-right: 15rem;
 }
 footer{
-  background:white; 
+  background:rgb(43, 36, 36); 
   text-align: center;
+
+}
+h{
+color: rgb(241, 235, 235);
 }

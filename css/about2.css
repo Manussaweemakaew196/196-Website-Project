@@ -115,8 +115,12 @@ body{
   /*-----------------------------------------------------------------------------------*/
   
   footer{
-    background:white; 
+    background:rgb(192, 73, 73); 
     text-align: center;
+
+}
+h{
+  color: rgb(241, 235, 235);
 }
 
 .grid-container {
@@ -131,7 +135,7 @@ body{
     font-size: 30px;
     text-align: center;
     font-family: 'Mali', cursive;
-    color:rgb(194, 81, 169);
+    color:rgb(167, 41, 139);
   }
   
 @media screen and (max-width: 500px){

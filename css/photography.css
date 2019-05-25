@@ -2,7 +2,7 @@
 body{
     padding: 0;
     margin: 0;
-    background: plum;
+    background: rgb(141, 120, 141);
   }
   header {
     display: inline;
@@ -126,8 +126,12 @@ width: 45%;
   /*-----------------------------------------------------------------------------------*/
   
   footer{
-    background:white; 
+    background:rgb(172, 124, 169); 
     text-align: center;
+
+}
+h{
+  color: rgb(241, 235, 235);
 }
 
 
