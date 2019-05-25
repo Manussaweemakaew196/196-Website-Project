@@ -11,6 +11,14 @@ body{
       font-size: 2cm;
       
   }
+  logo{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+  }
+  #canvas {
+    grid-column: 7;
+    
+  }
   main{
     margin: 0px 200px;
   }
@@ -138,6 +146,10 @@ h{
     color:rgb(167, 41, 139);
   }
   
+.credit {
+  text-align: right;
+  color: bisque;
+}
 @media screen and (max-width: 500px){
     .grid-container {
       grid-template-columns: auto;

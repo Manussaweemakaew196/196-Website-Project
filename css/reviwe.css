@@ -7,6 +7,14 @@ header p{
     font-size: 2cm;
     color: white;
 } 
+logo{
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+}
+#canvas {
+  grid-column: 7;
+  
+}
 main{
   font-family: 'Mali', cursive;
   font-size: 0.5cm;
@@ -114,8 +122,8 @@ article section img{
 }
 .data .img img
 {
-  width: 500px;
-  height: 550px;
+  width: 350px;
+  height: 370px;
 }
 .data{
   background:whitesmoke;

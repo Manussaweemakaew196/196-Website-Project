@@ -13,6 +13,14 @@ body{
       font-size: 2cm;
       
   }
+  logo{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+  }
+  #canvas {
+    grid-column: 7;
+    
+  }
   main{
     margin: 0px 200px;
   }

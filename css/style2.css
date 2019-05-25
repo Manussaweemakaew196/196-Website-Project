@@ -2,11 +2,18 @@ header {
     display: inline;
   }
   
+  logo{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+  }
+  #canvas {
+    grid-column: 7;
+    
+  }
   p {
       font-family: 'Sriracha', cursive;
       text-align: center;
       font-size: 2cm;
-  
   }
   #body {
       background-image: url(../image/cnx05.jpg);
@@ -38,7 +45,7 @@ header {
       transition: all .5s;
     }
     nav ul li a:hover {
-      color: #555;
+      color: rgb(248, 239, 239);
     }
     nav.circle ul li a {
       position: relative;
@@ -137,4 +144,4 @@ header {
           grid-template-columns: auto;
         }  
       }
-      
+     
