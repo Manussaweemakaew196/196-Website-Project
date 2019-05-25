@@ -9,18 +9,12 @@ body{
       font-family: 'Sriracha', cursive;
       text-align: center;
       font-size: 2cm;
+      
   }
   main{
     margin: 0px 200px;
   }
-  #fife{
-    font-family: 'Mali', cursive;
-    
-    padding: 100px 0px;
-    margin: 0px 5px 0px 5px;
-    text-align: center;
-    font-size: 0.5cm;
-  }
+ 
   #body {
       background-image: url(../image/cnx05.jpg);
   }
@@ -136,6 +130,8 @@ body{
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    font-family: 'Mali', cursive;
+    color:rgb(194, 81, 169);
   }
   
 @media screen and (max-width: 500px){

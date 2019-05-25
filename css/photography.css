@@ -1,21 +1,34 @@
-header {
+
+body{
+    padding: 0;
+    margin: 0;
+    background: plum;
+  }
+  header {
     display: inline;
   }
-  
-  p {
+  #header {
       font-family: 'Sriracha', cursive;
       text-align: center;
       font-size: 2cm;
-  
-  }
-  #body {
-      background-image: url(../image/cnx05.jpg);
       
   }
   main{
-      text-align: center;
+    margin: 0px 200px;
   }
+  article {
+    display: flex;
+    flex-wrap: wrap;
+}
+section {
+background-color: rgb(241, 203, 241);
+height: 680px;
+margin: 5px 5px;
+padding: 10px;
+width: 45%;
+}
  
+
   
     nav {
       margin: 0 auto;
@@ -83,7 +96,7 @@ header {
         background: #333;
       }
     }
-    
+   
     @-webkit-keyframes circle {
       0% {
         width: 1px;
@@ -110,30 +123,18 @@ header {
         border-radius: 0;
       }
     }
-    footer{
-        background:white; 
-        text-align: center;
-    }
-    
+  /*-----------------------------------------------------------------------------------*/
+  
+  footer{
+    background:white; 
+    text-align: center;
+}
+
+
+  
+@media screen and (max-width: 500px){
     .grid-container {
-        display: grid;
-        grid-template-columns: auto;
-        padding: 0px 50px 0px 50px;
-        
-    }
-    
-    .grid-item {
-        background-color: rgba(255, 255, 255, 0.8);
-        padding: 20px;
-        font-size: 30px;
-        text-align: center;
-      }
-      
-    @media screen and (max-width: 500px){
-        .grid-container {
-          grid-template-columns: auto;
-        }  
-      }
-      
-    
+      grid-template-columns: auto;
+    }  
+  }
   
