@@ -5,9 +5,11 @@ header p{
   font-family: 'Sriracha', cursive;
     text-align: center;
     font-size: 2cm;
+    color: white;
 } 
 main{
   font-family: 'Mali', cursive;
+  font-size: 0.5cm;
 }
 nav {
   margin: 0 auto;

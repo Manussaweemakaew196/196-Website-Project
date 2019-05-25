@@ -1,10 +1,30 @@
-#body {
-    background: pink;
+body{
+  padding: 0;
+  margin: 0;
 }
-footer{
-    background:white; 
+header {
+  display: inline;
+}
+#header {
+    font-family: 'Sriracha', cursive;
     text-align: center;
+    font-size: 2cm;
 }
+main{
+  margin: 0px 200px;
+}
+#fife{
+  font-family: 'Mali', cursive;
+  background-color: rgb(154, 193, 211);
+  padding: 100px 0px;
+  margin: 0px 5px 0px 5px;
+  text-align: center;
+  font-size: 0.5cm;
+}
+#body {
+    background-image: url(../image/cnx05.jpg);
+}
+
   nav {
     margin: 0 auto;
     box-shadow: 0px 5px 0px #dedede;
@@ -98,3 +118,36 @@ footer{
       border-radius: 0;
     }
   }
+/*-----------------------------------------------------------------------------------*/
+article
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+article .image img{
+  width: 450px;
+  height: 350px;
+}
+footer{
+  background:white; 
+  text-align: center;
+  
+}
+
+/*@media screen and (max-width: 650) {
+  article {
+    grid-template-columns: auto;
+  }  
+}*/
+@media screen and (min-width: 500) {
+  main {
+    grid-template-columns: auto;
+  }  
+}
+
+
+/*#body {
+  margin: 0;
+  overflow: hidden;
+  background: #061928;
+}*/
